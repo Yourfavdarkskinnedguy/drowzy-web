@@ -10131,7 +10131,7 @@ case 4:s=l.a
 s===$&&A.a()
 s=A.aT(s,200)
 r=A.aT(A.QP(l,B.kX,B.CI),24)
-q=A.aT(A.QP(l,B.kX,B.Da),32)
+q=A.aT(A.QP(l,B.kX,B.D9),32)
 p=A.aT(l.a,10)
 o=A.aT(l.a,12)
 l.d===$&&A.a()
@@ -16646,7 +16646,7 @@ r.toString
 A.fx(r)
 q=a.k(0,"swipeEdge")
 q.toString
-return new A.jW(s,r,B.CZ[A.fw(q)])},
+return new A.jW(s,r,B.CY[A.fw(q)])},
 vX:function vX(a,b){this.a=a
 this.b=b},
 jW:function jW(a,b,c){this.a=a
@@ -17947,7 +17947,7 @@ if(a.as!==q)return q?-1:1
 return 0},
 aou(a,b){var s=A.Z(b).h("a7<1,ct>")
 s=A.X(new A.a7(b,new A.QZ(),s),s.h("ah.E"))
-return A.ao2(!0,s,a,B.Dp,!0,B.zZ,null)},
+return A.ao2(!0,s,a,B.Do,!0,B.zZ,null)},
 abE(a){var s
 try{a.cI()}catch(s){a.EL()}a.w=B.Qc
 try{a.bt(A.aw5())}catch(s){}},
@@ -22503,7 +22503,7 @@ pu(){var s=this.Q
 s===$&&A.a()
 return s},
 pv(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.Dm
+if(a<0||b<0)return B.Dl
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -22522,7 +22522,7 @@ l.push(new A.dI(n[0],n[1],n[2],n[3],B.hV[m]))}return l},
 cD(a){var s,r,q=this.a
 q===$&&A.a()
 s=q.a.getGlyphPositionAtCoordinate(a.a,a.b)
-r=B.D_[J.a_(s.affinity.value)]
+r=B.CZ[J.a_(s.affinity.value)]
 return new A.ad(J.a_(s.pos),r)},
 BS(a){var s=this.a
 s===$&&A.a()
@@ -22997,7 +22997,7 @@ A.kZ.prototype={
 G(){return"CanvasKitVariant."+this.b}}
 A.RS.prototype={
 gkn(){var s=this.b,r=s==null?null:s.canvasKitVariant
-return A.aoD(B.D5,r==null?"auto":r)},
+return A.aoD(B.D4,r==null?"auto":r)},
 gyh(){var s,r=this.b
 if(r==null)s=null
 else{r=r.canvasKitMaximumSurfaces
@@ -27692,7 +27692,7 @@ if(m.f!==B.kD){m.f=B.kD
 m.Ge()}}return m.d.a.Ov(a)},
 Ge(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-Ou(a){if(B.b.u(B.Dc,a))return this.f===B.ew
+Ou(a){if(B.b.u(B.Db,a))return this.f===B.ew
 return!1}}
 A.Rz.prototype={
 $0(){return new A.hi(Date.now(),0,!1)},
@@ -34164,7 +34164,7 @@ if(o>0)return s
 return null}}
 A.a3t.prototype={
 E(a,b){this.El(b,0,b.length,!1)},
-b9(){this.El(B.Dg,0,0,!0)}}
+b9(){this.El(B.Df,0,0,!0)}}
 A.a93.prototype={
 El(a,b,c,d){var s=this.b.a3p(a,b,c,d)
 if(s!=null)this.a.lP(s,0,s.length,d)}}
@@ -36154,14 +36154,14 @@ $.a0()
 s=o.c>30?A.a9(224,B.aE.n()>>>16&255,B.aE.n()>>>8&255,B.aE.n()&255):B.I
 r=m?24:56
 q=t.p
-p=A.d([A.eS(A.d([A.aeW(A.fB(8),new A.ty(A.ar6(n,n,new A.oo("https://drowzy.app/logo1.png",1,n,B.PY)),new A.a6H(),34,34,B.xn,n)),B.vG,B.OL],q),B.J,B.K,B.eN),B.JD],q)
+p=A.d([A.eS(A.d([A.aeW(A.fB(8),new A.ty(A.ar6(n,n,new A.oo("https://drowzy.app/logo1.png",1,n,B.PY)),new A.a6H(),42,42,B.xn,n)),B.vG,B.OV],q),B.J,B.K,B.eN),B.JD],q)
 if(!m)B.b.L(p,A.d([new A.pP("Features",o.d,n),B.vK,new A.pP("How It Works",o.e,n),B.vK,new A.pP("Reviews",o.f,n),B.Jo],q))
 q=m?"Download":"Get the App"
 p.push(new A.qb(q,new A.a6I(),18,9,13,n))
-return A.abo(A.an9(A.Oj(A.eS(p,B.J,B.K,B.an),s,n,B.bv,72,new A.aW(r,0,r,0)),new A.wT(18,18,n)),B.ak)}}
+return A.abo(A.an9(A.Oj(A.eS(p,B.J,B.K,B.an),s,n,B.bv,76,new A.aW(r,0,r,0)),new A.wT(18,18,n)),B.ak)}}
 A.a6H.prototype={
 $3(a,b,c){var s=null,r=A.a9(B.c.ac(25.5),B.k.n()>>>16&255,B.k.n()>>>8&255,B.k.n()&255),q=A.fB(9)
-return A.cC(s,B.B6,B.w,s,s,new A.c1(r,s,A.At(A.a9(71,B.k.n()>>>16&255,B.k.n()>>>8&255,B.k.n()&255),1),q,s,s,B.a0),s,34,s,s,s,s,s,34)},
+return A.cC(s,B.B6,B.w,s,s,new A.c1(r,s,A.At(A.a9(71,B.k.n()>>>16&255,B.k.n()>>>8&255,B.k.n()&255),1),q,s,s,B.a0),s,42,s,s,s,s,s,42)},
 $S:297}
 A.a6I.prototype={
 $0(){},
@@ -36203,7 +36203,7 @@ o=A.bC(a,p,o).w
 s=n.a.a<860
 r=s?24:80
 n=A.ack(p,A.cC(p,p,B.w,p,p,new A.c1(p,p,p,p,p,new A.jZ(B.a_,0.5,B.bz,p,0,A.d([A.a9(13,B.k.n()>>>16&255,B.k.n()>>>8&255,B.k.n()&255),B.I],t.t_),p,p),B.cI),p,560,p,p,p,p,p,560),p,p,p,-80,-80,p)
-q=s?A.eb(B.CV,B.J,B.K):A.eS(B.CK,B.J,B.K,B.an)
+q=s?A.eb(B.Dx,B.J,B.K):A.eS(B.CK,B.J,B.K,B.an)
 return A.cC(p,A.FF(B.dS,A.d([n,new A.hA(new A.aW(r,104,r,88),q,p)],t.p),B.fj),B.w,p,new A.aA(0,1/0,o.a.b,1/0),B.xk,p,p,p,p,p,p,p,1/0)}}
 A.xk.prototype={
 J(a){var s,r,q,p=null,o=this.c,n=o?B.J:B.al,m=o?B.aR:B.bi,l=o?B.bV:B.K
@@ -36328,7 +36328,7 @@ $0(){return this.a.d=!1},
 $S:0}
 A.IH.prototype={
 J(a){var s=null,r=A.bC(a,s,t.w).w.a.a<820,q=r?24:80,p=t.p
-return A.cC(s,A.eb(A.d([B.Rb,B.iV,B.OU,B.vR,r?A.eb(A.d([B.wR,B.iW,B.wT,B.iW,B.wS],p),B.al,B.K):A.eS(A.d([A.nT(B.wR,1),B.vL,A.nT(B.wT,1),B.vL,A.nT(B.wS,1)],p),B.al,B.K,B.an)],p),B.J,B.K),B.w,B.ei,s,s,s,s,s,s,new A.aW(q,100,q,100),s,s,1/0)}}
+return A.cC(s,A.eb(A.d([B.Rb,B.iV,B.OT,B.vR,r?A.eb(A.d([B.wR,B.iW,B.wT,B.iW,B.wS],p),B.al,B.K):A.eS(A.d([A.nT(B.wR,1),B.vL,A.nT(B.wT,1),B.vL,A.nT(B.wS,1)],p),B.al,B.K,B.an)],p),B.J,B.K),B.w,B.ei,s,s,s,s,s,s,new A.aW(q,100,q,100),s,s,1/0)}}
 A.q9.prototype={
 J(a){var s=null
 return A.eb(A.d([A.e0(this.c,A.h_(s,s,A.a9(92,B.k.n()>>>16&255,B.k.n()>>>8&255,B.k.n()&255),s,s,s,s,s,s,s,s,52,s,s,B.ce,s,1,!0,s,-1.5,s,s,s,s,s,s),s),B.Jr,A.e0(this.d,B.Lo,s),B.vO,A.e0(this.e,B.Lg,s)],t.p),B.al,B.K)}}
@@ -36337,11 +36337,11 @@ J(a){var s,r,q,p=null,o=A.bC(a,p,t.w).w.a.a<600,n=o?32:140,m=J.ag1(5,t.l7)
 for(s=0;s<5;++s)m[s]=B.B8
 r=A.eS(m,B.J,B.bV,B.an)
 q=t.p
-return A.cC(p,A.eb(A.d([r,B.Jt,A.e0('"I didn\'t realise how tired I was until Drowzy woke me up. It literally saved my drive \u2014 and maybe my life."',A.h_(p,p,B.i,p,p,p,p,p,p,p,p,o?21:26,B.AN,p,p,p,1.52,!0,p,0.1,p,p,p,p,p,p),B.aR),B.Ju,A.eS(A.d([A.cC(p,B.yH,B.w,p,p,new A.c1(A.a9(36,B.k.n()>>>16&255,B.k.n()>>>8&255,B.k.n()&255),p,p,p,p,p,B.cI),p,36,p,p,p,p,p,36),B.Jn,B.zC],q),B.J,B.bV,B.an)],q),B.J,B.K),B.w,B.aE,p,p,p,p,p,p,new A.aW(n,100,n,100),p,p,1/0)}}
+return A.cC(p,A.eb(A.d([r,B.Jt,A.e0('"I didn\'t realise how tired I was until Drowzy woke me up. It literally saved my drive \u2014 and maybe my life."',A.h_(p,p,B.i,p,p,p,p,p,p,p,p,o?21:26,B.AN,p,p,p,1.52,!0,p,0.1,p,p,p,p,p,p),B.aR),B.Ju,A.eS(A.d([A.cC(p,B.yG,B.w,p,p,new A.c1(A.a9(36,B.k.n()>>>16&255,B.k.n()>>>8&255,B.k.n()&255),p,p,p,p,p,B.cI),p,36,p,p,p,p,p,36),B.Jn,B.zC],q),B.J,B.bV,B.an)],q),B.J,B.K),B.w,B.aE,p,p,p,p,p,p,new A.aW(n,100,n,100),p,p,1/0)}}
 A.HR.prototype={
 J(a){var s=null,r=A.bC(a,s,t.w).w.a.a<600,q=r?24:80,p=A.a9(20,B.k.n()>>>16&255,B.k.n()>>>8&255,B.k.n()&255),o=A.fB(100)
-o=A.cC(s,B.OS,B.w,s,s,new A.c1(p,s,A.At(A.a9(51,B.k.n()>>>16&255,B.k.n()>>>8&255,B.k.n()&255),1),o,s,s,B.a0),s,s,s,s,B.Ap,s,s,s)
-return A.cC(s,A.eb(A.d([o,B.Js,A.e0("Start driving\nsafer today.",A.h_(s,s,B.i,s,s,s,s,s,s,s,s,r?36:50,s,s,B.ce,s,1.12,!0,s,-1.2,s,s,s,s,s,s),B.aR),B.Jq,B.ON,B.Jw,B.Rd],t.p),B.J,B.K),B.w,s,s,B.xm,s,s,s,s,new A.aW(q,100,q,100),s,s,1/0)}}
+o=A.cC(s,B.OR,B.w,s,s,new A.c1(p,s,A.At(A.a9(51,B.k.n()>>>16&255,B.k.n()>>>8&255,B.k.n()&255),1),o,s,s,B.a0),s,s,s,s,B.Ap,s,s,s)
+return A.cC(s,A.eb(A.d([o,B.Js,A.e0("Start driving\nsafer today.",A.h_(s,s,B.i,s,s,s,s,s,s,s,s,r?36:50,s,s,B.ce,s,1.12,!0,s,-1.2,s,s,s,s,s,s),B.aR),B.Jq,B.OM,B.Jw,B.Rd],t.p),B.J,B.K),B.w,s,s,B.xm,s,s,s,s,new A.aW(q,100,q,100),s,s,1/0)}}
 A.LB.prototype={
 J(a){var s=new A.kB("App Store",B.kJ,new A.a8l(),!1,null),r=new A.kB("Google Play",B.kF,new A.a8m(),!0,null)
 if(A.bC(a,null,t.w).w.a.a<480)return A.eb(A.d([s,B.vP,r],t.p),B.J,B.K)
@@ -36393,7 +36393,7 @@ $0(){return this.a.d=!1},
 $S:0}
 A.It.prototype={
 J(a){var s=null,r=t.p
-return A.cC(s,A.eb(A.d([A.eS(A.d([A.a1F(B.OY,new A.a54(a),s),B.vJ,A.a1F(B.OX,new A.a55(a),s),B.vJ,A.a1F(B.OM,new A.a56(),s)],r),B.J,B.bV,B.an),B.iV,B.P_],r),B.J,B.K),B.w,s,s,B.xl,s,s,s,s,B.Aq,s,s,1/0)}}
+return A.cC(s,A.eb(A.d([A.eS(A.d([A.a1F(B.OY,new A.a54(a),s),B.vJ,A.a1F(B.OX,new A.a55(a),s),B.vJ,A.a1F(B.OL,new A.a56(),s)],r),B.J,B.bV,B.an),B.iV,B.P_],r),B.J,B.K),B.w,s,s,B.xl,s,s,s,s,B.Aq,s,s,1/0)}}
 A.a54.prototype={
 $0(){return A.agE(this.a,"/privacy",t.X)},
 $S:0}
@@ -39416,7 +39416,7 @@ r=n.w
 n=n.cx
 q=p.gXO()
 p.a.toString
-return new A.wF(o,r,o,new A.a6i(),o,o,o,o,o,o,B.Fr,o,o,m,B.Dq,p.gXV(),n,o,B.My,s,o,q,o,o,B.kW,!1,!1,o,o,o,new A.lr(p,t.bT))},
+return new A.wF(o,r,o,new A.a6i(),o,o,o,o,o,o,B.Fr,o,o,m,B.Dp,p.gXV(),n,o,B.My,s,o,q,o,o,B.kW,!1,!1,o,o,o,new A.lr(p,t.bT))},
 J(a){var s,r=this.T2(a)
 this.a.toString
 s=this.d
@@ -39715,7 +39715,7 @@ A.pt.prototype={
 G(){return"_CornerId."+this.b}}
 A.iY.prototype={}
 A.oi.prototype={
-ia(){var s,r,q,p=this,o=A.auO(B.D8,new A.WI(p,p.b.gaQ().a2(0,p.a.gaQ()))),n=p.a
+ia(){var s,r,q,p=this,o=A.auO(B.D7,new A.WI(p,p.b.gaQ().a2(0,p.a.gaQ()))),n=p.a
 n.toString
 s=o.a
 r=p.lp(n,s)
@@ -42060,7 +42060,7 @@ gkZ(){return B.ks},
 yd(a,b,c,d,e,f){return A.anP(a,b,c,d,e,f)}}
 A.DF.prototype={
 SJ(a){var s=t.Tr
-s=A.X(new A.a7(B.D7,new A.XW(a),s),s.h("ah.E"))
+s=A.X(new A.a7(B.D6,new A.XW(a),s),s.h("ah.E"))
 return s},
 i(a,b){if(b==null)return!1
 if(this===b)return!0
@@ -45656,7 +45656,7 @@ NF(a){var s=this.b,r=s.a.c.BS(a.a2(0,s.geV()))
 if(r==null||s.geV().i(0,B.j))return r
 return new A.ju(r.a.dK(s.geV()),r.b,r.c)},
 rl(){var s,r,q=this.b,p=q.geV()
-if(!isFinite(p.a)||!isFinite(p.b))return B.Do
+if(!isFinite(p.a)||!isFinite(p.b))return B.Dn
 s=q.f
 if(s==null){s=q.a.c.rl()
 q.f=s}if(p.i(0,B.j))r=s
@@ -51808,7 +51808,7 @@ break
 case 1:return A.M(q,r)}})
 return A.N($async$wm,r)},
 UV(a,b){var s,r,q,p
-if(a===b)return B.Dl
+if(a===b)return B.Dk
 s=A.d([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.kK(B.d9,a)
@@ -53133,7 +53133,7 @@ A.jX.prototype={}
 A.DZ.prototype={
 iF(a,b){var s,r,q,p,o,n=$.a4.aa$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.q,r=0;r<2;++r){q=B.Dd[r]
+for(s=t.q,r=0;r<2;++r){q=B.Dc[r]
 p=n.e
 p.toString
 o=A.abb(p,q,s)
@@ -56299,7 +56299,7 @@ i(a,b){var s=this
 if(b==null)return!1
 if(J.I(b)!==A.p(s))return!1
 return b instanceof A.dn&&b.a===s.a&&b.b==s.b&&b.d===s.d&&A.cq(null,null)},
-gq(a){return A.F(this.a,this.b,null,this.d,A.be(B.Dn),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gq(a){return A.F(this.a,this.b,null,this.d,A.be(B.Dm),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a){return"IconData(U+"+B.d.pb(B.h.jR(this.a,16).toUpperCase(),5,"0")+")"}}
 A.lx.prototype={
 bB(a){return!this.w.i(0,a.w)}}
@@ -57114,7 +57114,7 @@ b=r?a1:a3.fr
 if(b==null)b=a2.b.c.z
 a3=r?a1:a3.fx
 a2=a3==null?a2.b.c.Q:a3
-a=new A.u8(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.rH(a1),B.Dj,e===!0,d,c,b,a2)
+a=new A.u8(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.rH(a1),B.Di,e===!0,d,c,b,a2)
 if(!a.i(0,a0.e))a0.an(new A.a6z(a0,a))},
 rD(){if(this.d==null)this.lJ()},
 Kd(){this.lJ()},
@@ -57472,7 +57472,7 @@ r.L(0,s.N5(null,l))
 l.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.Dh[p]
+for(;!1;++p){o=B.Dg[p]
 n=l.c
 n.toString
 m=new A.eV(o.yD(n),null,!0,B.jd,B.b6,new A.n6(new ($.NV())(B.b6)),B.b6)
@@ -57828,7 +57828,7 @@ J(a){var s,r,q=this,p=null,o=q.gWC(),n=A.nX(a),m=q.bb$,l=q.d
 l===$&&A.a()
 s=q.a.ay
 if(l.gb0()==null){r=q.gDH()
-r=J.o9(r.slice(0),A.Z(r).c)}else r=B.Di
+r=J.o9(r.slice(0),A.Z(r).c)}else r=B.Dh
 return new A.lt(p,new A.d8(new A.Xu(q,a),A.tX(B.bM,new A.A4(!1,A.abI(A.tj(!0,p,A.a2t(m,new A.os(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n),p),o,q.gYe(),p,p,o),p,t.w3),p)}}
 A.Xt.prototype={
 $1(a){var s=this.a.c
@@ -62835,7 +62835,7 @@ r.qY()
 return s.aJ()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gwo(),p=0;p<s.length;s.length===r||(0,A.t)(s),++p)s[p].N(q)
-o.b=B.Dk
+o.b=B.Dj
 o.y=!1
 o.ef()},
 cl(a,b){return a.jp(b)},
@@ -67695,7 +67695,7 @@ B.yp=new A.a2w()
 B.W=new A.a2z()
 B.bG=new A.a2B()
 B.cB=new A.Gg(0,0,0,0)
-B.Dj=s([],A.ae("x<axq>"))
+B.Di=s([],A.ae("x<axq>"))
 B.Rq=new A.a2G()
 B.aA={}
 B.q_=new A.bu(B.aA,[],t.li)
@@ -67734,8 +67734,8 @@ B.yF=new A.r8(null,null,null,null,null,null)
 B.k=new A.A(1,0,0.8980392156862745,0.8,B.f)
 B.ax=new A.eh(700)
 B.Lu=new A.i(!0,B.k,null,null,null,null,15,B.ax,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.OV=new A.cb("S",null,B.Lu,null,null)
-B.yH=new A.l2(B.a_,null,null,B.OV,null)
+B.OU=new A.cb("S",null,B.Lu,null,null)
+B.yG=new A.l2(B.a_,null,null,B.OU,null)
 B.yJ=new A.rb(null,null,null,null,null,null,null,null,null)
 B.ca=new A.nv(0,"none")
 B.cb=new A.nv(1,"isTrue")
@@ -67842,10 +67842,10 @@ B.al=new A.l7(0,"start")
 B.fn=new A.a2E(1,"down")
 B.d3=new A.eh(600)
 B.Mu=new A.i(!0,B.i,null,null,null,null,14,B.d3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.OT=new A.cb("Sarah K.",null,B.Mu,null,null)
-B.Mg=new A.i(!0,B.b8,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.OR=new A.cb("Rideshare Driver, Lagos",null,B.Mg,null,null)
-B.BV=s([B.OT,B.OR],t.p)
+B.OS=new A.cb("Sarah K.",null,B.Mu,null,null)
+B.Mf=new A.i(!0,B.b8,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.OQ=new A.cb("Rideshare Driver, Lagos",null,B.Mf,null,null)
+B.BV=s([B.OS,B.OQ],t.p)
 B.zC=new A.nF(B.aK,B.K,B.an,B.al,null,B.fn,null,0,B.BV,null)
 B.J=new A.l7(2,"center")
 B.wP=new A.q8("1M+","Safe Trips Recorded",null)
@@ -68129,13 +68129,13 @@ B.jX=new A.A(1,0.2784313725490196,0.3333333333333333,0.4117647058823529,B.f)
 B.B7=new A.ij(B.kG,13,B.jX,null,null)
 B.vM=new A.bx(6,null,null,null)
 B.wb=new A.i(!0,B.jX,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.OQ=new A.cb("No sign-up \xb7 All processing stays on your device",null,B.wb,null,null)
-B.BR=s([B.B7,B.vM,B.OQ],t.p)
+B.OP=new A.cb("No sign-up \xb7 All processing stays on your device",null,B.wb,null,null)
+B.BR=s([B.B7,B.vM,B.OP],t.p)
 B.BS=s([0,6,12,18],t.t)
-B.D9=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
-B.CX=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
+B.D8=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
+B.CW=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
 B.DM=s([1.9622899599665666,-57.173814538844006,308.7233197812385],t.n)
-B.BU=s([B.D9,B.CX,B.DM],t.zg)
+B.BU=s([B.D8,B.CW,B.DM],t.zg)
 B.Ci=s([4,9,14,19],t.t)
 B.Dy=s([137,80,78,71,13,10,26,10],t.Z)
 B.Bg=new A.jx(0,"png")
@@ -68143,8 +68143,8 @@ B.Bo=new A.hq(B.Bg,!1,0,"png")
 B.Be=new A.im(B.Dy,B.Bo,0,"png")
 B.Dz=s([71,73,70,56,55,97],t.Z)
 B.Bd=new A.im(B.Dz,B.ez,1,"gif87a")
-B.D6=s([71,73,70,56,57,97],t.Z)
-B.Bc=new A.im(B.D6,B.ez,2,"gif89a")
+B.D5=s([71,73,70,56,57,97],t.Z)
+B.Bc=new A.im(B.D5,B.ez,2,"gif89a")
 B.BW=s([255,216,255],t.Z)
 B.Bh=new A.jx(2,"jpeg")
 B.Bs=new A.hq(B.Bh,!1,3,"jpeg")
@@ -68159,10 +68159,10 @@ B.Ck=s([B.Be,B.Bd,B.Bc,B.Bf,B.Bb,B.Ba],A.ae("x<im>"))
 B.jf=new A.yl(0,"named")
 B.wN=new A.yl(1,"anonymous")
 B.Ct=s([B.jf,B.wN],A.ae("x<yl>"))
-B.CY=s([0.41233895,0.35762064,0.18051042],t.n)
+B.CX=s([0.41233895,0.35762064,0.18051042],t.n)
 B.CJ=s([0.2126,0.7152,0.0722],t.n)
 B.DI=s([0.01932141,0.11916382,0.95034478],t.n)
-B.bN=s([B.CY,B.CJ,B.DI],t.zg)
+B.bN=s([B.CX,B.CJ,B.DI],t.zg)
 B.kV=s([0,4,12,1,5,13,3,7,15],t.t)
 B.bi=new A.iN(0,"left")
 B.cx=new A.iN(1,"right")
@@ -68174,17 +68174,17 @@ B.CE=s([B.bi,B.cx,B.aR,B.dH,B.aS,B.fl],A.ae("x<iN>"))
 B.CG=s([B.fN,B.fO],A.ae("x<qU>"))
 B.CI=s([18,15,10,12,15,18,15,12,12],t.n)
 B.Qo=new A.xk(!1,null)
-B.AF=new A.nS(55,B.eu,B.Qo,null)
+B.AE=new A.nS(55,B.eu,B.Qo,null)
 B.Jp=new A.bx(60,null,null,null)
-B.Qk=new A.py(320,null)
-B.yG=new A.l2(B.a_,null,null,B.Qk,null)
-B.AE=new A.nS(45,B.eu,B.yG,null)
-B.CK=s([B.AF,B.Jp,B.AE],t.p)
+B.Qk=new A.py(360,null)
+B.yI=new A.l2(B.a_,null,null,B.Qk,null)
+B.AF=new A.nS(45,B.eu,B.yI,null)
+B.CK=s([B.AE,B.Jp,B.AF],t.p)
 B.B2=new A.dn(983662,"MaterialIcons",!1)
 B.B5=new A.ij(B.B2,12,B.k,null,null)
 B.NZ=new A.i(!0,B.k,null,null,null,null,12,B.d3,null,0.2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.OP=new A.cb("Trusted by 1M+ drivers worldwide",null,B.NZ,null,null)
-B.CL=s([B.B5,B.vM,B.OP],t.p)
+B.OO=new A.cb("Trusted by 1M+ drivers worldwide",null,B.NZ,null,null)
+B.CL=s([B.B5,B.vM,B.OO],t.p)
 B.DN=new A.lH("en",null,"US")
 B.kW=s([B.DN],t.ss)
 B.kX=s([0,41,61,101,131,181,251,301,360],t.n)
@@ -68196,28 +68196,23 @@ B.Qf=new A.iZ(8,0.12)
 B.Qe=new A.iZ(12,0.14)
 B.kY=s([B.Qd,B.Qi,B.Qg,B.Qh,B.Qf,B.Qe],A.ae("x<iZ>"))
 B.CO=s([0.27,0.42,0.57,0.73,0.92],t.n)
-B.Qj=new A.py(256,null)
-B.yI=new A.l2(B.a_,null,null,B.Qj,null)
-B.Jx=new A.bx(null,52,null,null)
-B.Qp=new A.xk(!0,null)
-B.CV=s([B.yI,B.Jx,B.Qp],t.p)
 B.kZ=s([0,21,51,121,151,191,271,321,360],t.n)
-B.CW=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
+B.CV=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
 B.vU=new A.vX(0,"left")
 B.vV=new A.vX(1,"right")
-B.CZ=s([B.vU,B.vV],A.ae("x<vX>"))
+B.CY=s([B.vU,B.vV],A.ae("x<vX>"))
 B.ap=new A.w1(0,"upstream")
 B.o=new A.w1(1,"downstream")
-B.D_=s([B.ap,B.o],A.ae("x<w1>"))
+B.CZ=s([B.ap,B.o],A.ae("x<w1>"))
 B.aa=new A.w5(0,"rtl")
 B.P=new A.w5(1,"ltr")
 B.hV=s([B.aa,B.P],A.ae("x<w5>"))
 B.yB=new A.kZ(0,"auto")
 B.yC=new A.kZ(1,"full")
 B.yD=new A.kZ(2,"chromium")
-B.D5=s([B.yB,B.yC,B.yD,B.bI],A.ae("x<kZ>"))
+B.D4=s([B.yB,B.yC,B.yD,B.bI],A.ae("x<kZ>"))
 B.aQ=new A.dH(1,"fuchsia")
-B.D7=s([B.a9,B.aQ,B.a6,B.aH,B.aI,B.aJ],A.ae("x<dH>"))
+B.D6=s([B.a9,B.aQ,B.a6,B.aH,B.aI,B.aJ],A.ae("x<dH>"))
 B.wr=new A.pt(0,"topLeft")
 B.wu=new A.pt(3,"bottomRight")
 B.Q7=new A.iY(B.wr,B.wu)
@@ -68226,36 +68221,41 @@ B.ws=new A.pt(1,"topRight")
 B.wt=new A.pt(2,"bottomLeft")
 B.Q8=new A.iY(B.ws,B.wt)
 B.Q9=new A.iY(B.wt,B.ws)
-B.D8=s([B.Q7,B.Qa,B.Q8,B.Q9],A.ae("x<iY>"))
-B.Da=s([35,30,20,25,30,35,30,25,25],t.n)
-B.Dc=s(["click","scroll"],t.s)
+B.D7=s([B.Q7,B.Qa,B.Q8,B.Q9],A.ae("x<iY>"))
+B.D9=s([35,30,20,25,30,35,30,25,25],t.n)
+B.Db=s(["click","scroll"],t.s)
 B.xt=new A.nl()
 B.iw=new A.F5(1,"page")
 B.ix=new A.ep(B.aV,B.iw)
-B.Dd=s([B.xt,B.ix],A.ae("x<ax>"))
-B.Dl=s([],t.QP)
+B.Dc=s([B.xt,B.ix],A.ae("x<ax>"))
+B.Dk=s([],t.QP)
 B.l0=s([],A.ae("x<axa>"))
-B.Dp=s([],t.D)
-B.Do=s([],t.ER)
-B.Dq=s([],t.tc)
+B.Do=s([],t.D)
+B.Dn=s([],t.ER)
+B.Dp=s([],t.tc)
 B.eE=s([],t.jl)
-B.Di=s([],t.wi)
-B.Dh=s([],A.ae("x<agL<@>>"))
+B.Dh=s([],t.wi)
+B.Dg=s([],A.ae("x<agL<@>>"))
 B.hX=s([],t.AO)
-B.Dk=s([],t.D1)
+B.Dj=s([],t.D1)
 B.hW=s([],t.V)
 B.l_=s([],t.s)
 B.ah=s([],t.oU)
-B.Dm=s([],t.Lx)
+B.Dl=s([],t.Lx)
 B.Rw=s([],t.p)
-B.Dg=s([],t.t)
+B.Df=s([],t.t)
 B.l1=s([],t.ee)
-B.Dn=s([],t.XS)
+B.Dm=s([],t.XS)
+B.Qj=new A.py(280,null)
+B.yH=new A.l2(B.a_,null,null,B.Qj,null)
+B.Jx=new A.bx(null,52,null,null)
+B.Qp=new A.xk(!0,null)
+B.Dx=s([B.yH,B.Jx,B.Qp],t.p)
 B.d9=s([B.bC,B.bp,B.dT,B.dU,B.fM],t.QP)
 B.Cy=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
-B.De=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
+B.Dd=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
 B.CH=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
-B.DC=s([B.Cy,B.De,B.CH],t.zg)
+B.DC=s([B.Cy,B.Dd,B.CH],t.zg)
 B.DD=s([45,95,45,20,45,90,45,45,45],t.n)
 B.DE=s([120,120,20,45,20,15,20,120,120],t.n)
 B.ch=new A.eN(0,"controlModifier")
@@ -68810,57 +68810,57 @@ B.Co=s([54,null,null,8589935158],t.Z)
 B.Cp=s([55,null,null,8589935159],t.Z)
 B.Cq=s([56,null,null,8589935160],t.Z)
 B.Cs=s([57,null,null,8589935161],t.Z)
-B.D0=s([8589934852,8589934852,8589934853,null],t.Z)
+B.D_=s([8589934852,8589934852,8589934853,null],t.Z)
 B.C0=s([4294967555,null,4294967555,null],t.Z)
 B.C1=s([4294968065,null,null,8589935154],t.Z)
 B.C2=s([4294968066,null,null,8589935156],t.Z)
 B.C3=s([4294968067,null,null,8589935158],t.Z)
 B.C4=s([4294968068,null,null,8589935160],t.Z)
 B.C9=s([4294968321,null,null,8589935157],t.Z)
-B.D1=s([8589934848,8589934848,8589934849,null],t.Z)
+B.D0=s([8589934848,8589934848,8589934849,null],t.Z)
 B.C_=s([4294967423,null,null,8589935150],t.Z)
 B.C5=s([4294968069,null,null,8589935153],t.Z)
 B.BZ=s([4294967309,null,null,8589935117],t.Z)
 B.C6=s([4294968070,null,null,8589935159],t.Z)
 B.Ca=s([4294968327,null,null,8589935152],t.Z)
-B.D2=s([8589934854,8589934854,8589934855,null],t.Z)
+B.D1=s([8589934854,8589934854,8589934855,null],t.Z)
 B.C7=s([4294968071,null,null,8589935155],t.Z)
 B.C8=s([4294968072,null,null,8589935161],t.Z)
-B.D3=s([8589934850,8589934850,8589934851,null],t.Z)
-B.q2=new A.cH(["*",B.Cb,"+",B.Cc,"-",B.Cd,".",B.Ce,"/",B.Cf,"0",B.Cg,"1",B.Ch,"2",B.Cj,"3",B.Cl,"4",B.Cm,"5",B.Cn,"6",B.Co,"7",B.Cp,"8",B.Cq,"9",B.Cs,"Alt",B.D0,"AltGraph",B.C0,"ArrowDown",B.C1,"ArrowLeft",B.C2,"ArrowRight",B.C3,"ArrowUp",B.C4,"Clear",B.C9,"Control",B.D1,"Delete",B.C_,"End",B.C5,"Enter",B.BZ,"Home",B.C6,"Insert",B.Ca,"Meta",B.D2,"PageDown",B.C7,"PageUp",B.C8,"Shift",B.D3],A.ae("cH<z,U<n?>>"))
+B.D2=s([8589934850,8589934850,8589934851,null],t.Z)
+B.q2=new A.cH(["*",B.Cb,"+",B.Cc,"-",B.Cd,".",B.Ce,"/",B.Cf,"0",B.Cg,"1",B.Ch,"2",B.Cj,"3",B.Cl,"4",B.Cm,"5",B.Cn,"6",B.Co,"7",B.Cp,"8",B.Cq,"9",B.Cs,"Alt",B.D_,"AltGraph",B.C0,"ArrowDown",B.C1,"ArrowLeft",B.C2,"ArrowRight",B.C3,"ArrowUp",B.C4,"Clear",B.C9,"Control",B.D0,"Delete",B.C_,"End",B.C5,"Enter",B.BZ,"Home",B.C6,"Insert",B.Ca,"Meta",B.D1,"PageDown",B.C7,"PageUp",B.C8,"Shift",B.D2],A.ae("cH<z,U<n?>>"))
 B.Cr=s([B.l9,null,null,B.pQ],t.L)
-B.Dr=s([B.pC,null,null,B.pR],t.L)
+B.Dq=s([B.pC,null,null,B.pR],t.L)
 B.CN=s([B.pD,null,null,B.pS],t.L)
-B.D4=s([B.pE,null,null,B.bQ],t.L)
+B.D3=s([B.pE,null,null,B.bQ],t.L)
 B.BQ=s([B.pF,null,null,B.pT],t.L)
 B.DA=s([B.pG,null,null,B.i7],t.L)
-B.Dx=s([B.pH,null,null,B.dk],t.L)
+B.Dw=s([B.pH,null,null,B.dk],t.L)
 B.Cx=s([B.pI,null,null,B.bR],t.L)
 B.DG=s([B.pJ,null,null,B.dl],t.L)
-B.Dw=s([B.pK,null,null,B.bS],t.L)
+B.Dv=s([B.pK,null,null,B.bS],t.L)
 B.Cv=s([B.pL,null,null,B.i8],t.L)
 B.BX=s([B.pM,null,null,B.bT],t.L)
 B.CF=s([B.pN,null,null,B.dm],t.L)
-B.Ds=s([B.pO,null,null,B.bU],t.L)
-B.Dt=s([B.pP,null,null,B.dn],t.L)
+B.Dr=s([B.pO,null,null,B.bU],t.L)
+B.Ds=s([B.pP,null,null,B.dn],t.L)
 B.Cz=s([B.di,B.di,B.eL,null],t.L)
 B.DB=s([B.eH,null,B.eH,null],t.L)
 B.CP=s([B.aZ,null,null,B.bR],t.L)
 B.CQ=s([B.aM,null,null,B.bS],t.L)
 B.CR=s([B.aN,null,null,B.bT],t.L)
 B.DF=s([B.b_,null,null,B.bU],t.L)
-B.Du=s([B.i1,null,null,B.i8],t.L)
+B.Dt=s([B.i1,null,null,B.i8],t.L)
 B.CA=s([B.dg,B.dg,B.eK,null],t.L)
-B.Db=s([B.aj,null,null,B.bQ],t.L)
+B.Da=s([B.aj,null,null,B.bQ],t.L)
 B.CS=s([B.bO,null,null,B.dk],t.L)
 B.Cu=s([B.eG,null,null,B.i6],t.L)
 B.CT=s([B.bP,null,null,B.dm],t.L)
-B.Dv=s([B.df,null,null,B.i7],t.L)
+B.Du=s([B.df,null,null,B.i7],t.L)
 B.CB=s([B.dj,B.dj,B.eM,null],t.L)
 B.CU=s([B.dd,null,null,B.dl],t.L)
-B.Df=s([B.de,null,null,B.dn],t.L)
+B.De=s([B.de,null,null,B.dn],t.L)
 B.CC=s([B.cg,B.cg,B.dh,null],t.L)
-B.Fs=new A.cH(["*",B.Cr,"+",B.Dr,"-",B.CN,".",B.D4,"/",B.BQ,"0",B.DA,"1",B.Dx,"2",B.Cx,"3",B.DG,"4",B.Dw,"5",B.Cv,"6",B.BX,"7",B.CF,"8",B.Ds,"9",B.Dt,"Alt",B.Cz,"AltGraph",B.DB,"ArrowDown",B.CP,"ArrowLeft",B.CQ,"ArrowRight",B.CR,"ArrowUp",B.DF,"Clear",B.Du,"Control",B.CA,"Delete",B.Db,"End",B.CS,"Enter",B.Cu,"Home",B.CT,"Insert",B.Dv,"Meta",B.CB,"PageDown",B.CU,"PageUp",B.Df,"Shift",B.CC],A.ae("cH<z,U<e?>>"))
+B.Fs=new A.cH(["*",B.Cr,"+",B.Dq,"-",B.CN,".",B.D3,"/",B.BQ,"0",B.DA,"1",B.Dw,"2",B.Cx,"3",B.DG,"4",B.Dv,"5",B.Cv,"6",B.BX,"7",B.CF,"8",B.Dr,"9",B.Ds,"Alt",B.Cz,"AltGraph",B.DB,"ArrowDown",B.CP,"ArrowLeft",B.CQ,"ArrowRight",B.CR,"ArrowUp",B.DF,"Clear",B.Dt,"Control",B.CA,"Delete",B.Da,"End",B.CS,"Enter",B.Cu,"Home",B.CT,"Insert",B.Du,"Meta",B.CB,"PageDown",B.CU,"PageUp",B.De,"Shift",B.CC],A.ae("cH<z,U<e?>>"))
 B.FT={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.q3=new A.bu(B.FT,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
 B.FP={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
@@ -69460,8 +69460,8 @@ B.Jf=new A.V(B.da,!1,!1,!1,!0,B.l)
 B.Jg=new A.V(B.bQ,!0,!1,!1,!1,B.av)
 B.kt=new A.aW(24,24,24,24)
 B.w9=new A.i(!0,B.B,null,null,null,null,null,null,null,null,null,null,1.6,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.OO=new A.cb('Terms of Service\n\nLast updated: June 16, 2026\n\nWelcome to Drowzy! These Terms of Service ("Terms") govern your use of the Drowzy mobile application (the "App"), operated by Drowzy ("we," "us," or "our"). By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree, do not use the App.\n\n1. Eligibility\n\nYou must be at least 13 years old to use the App. By using the App, you represent that you meet this age requirement.\n\n2. Description of Service\n\nDrowzy provides real\u2011time drowsiness detection using your device\'s front camera. The App analyzes eye closure patterns and alerts you with sound and vibration when signs of fatigue are detected. The App also stores trip history and provides safety scores. The drowsiness detection is a driver assistance tool only and does not guarantee accident prevention. You remain fully responsible for your driving decisions and safety.\n\n3. Account and Guest Use\n\nYou may use a limited version of the App as a guest (without an account). Creating a free account unlocks cloud backup, cross\u2011device sync, and a 7\u2011day free trial of premium features. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.\n\n4. Free Trial and Subscription\n\n- Free Trial: New users may be offered a 7\u2011day free trial of premium features. The trial begins when you start your first authenticated drive.\n- Subscription: After the trial, you may purchase a monthly or annual auto\u2011renewing subscription to continue unlimited drowsiness detection and premium features.\n- Billing: Payment will be charged to your Apple ID or Google Play account upon confirmation of purchase. Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period.\n- Cancellation: You can manage or cancel your subscription in your device\'s account settings. Cancellation takes effect after the current billing period ends. No refunds are provided for unused portions of the subscription period, except as required by law.\n\n5. Acceptable Use\n\nYou agree not to:\n- Use the App while driving if it causes distraction or violates local traffic laws.\n- Modify, reverse\u2011engineer, or attempt to extract the source code of the App.\n- Use the App for any unlawful purpose or in a way that could harm others.\n\n6. Intellectual Property\n\nThe App and all related content, features, and functionality (including but not limited to the Drowzy name, logo, design, and algorithms) are owned by Drowzy and are protected by copyright, trademark, and other intellectual property laws. You may not copy, distribute, or create derivative works without our prior written consent.\n\n7. Disclaimer of Warranties\n\nThe App is provided "as is" and "as available" without warranties of any kind, either express or implied. We do not guarantee that the App will be error\u2011free, uninterrupted, or that drowsiness detection will be 100% accurate. The App is a driver assistance tool and should not be relied upon as a sole safety measure. Always remain attentive while driving.\n\n8. Limitation of Liability\n\nTo the fullest extent permitted by law, Drowzy shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to personal injury, property damage, or loss of data, arising from your use of the App. Our total liability for any claim shall not exceed the amount you paid us for the 12 months preceding the claim.\n\n9. Termination\n\nWe may suspend or terminate your access to the App at any time, without prior notice, if you violate these Terms. Upon termination, your right to use the App will cease immediately. You may also stop using the App at any time.\n\n10. Governing Law\n\nThese Terms shall be governed by the laws of Nigeria, without regard to conflict of law principles.\n\n11. Changes to Terms\n\nWe reserve the right to modify these Terms at any time. We will notify you of significant changes by posting the new Terms on this page and updating the "Last updated" date. Your continued use of the App after changes constitutes acceptance of the new Terms.\n\n12. Contact\n\nFor questions or concerns about these Terms, contact us at:\nsupport@drowzy.app\n',null,B.w9,null,null)
-B.Jh=new A.oV(B.kt,null,B.OO,null)
+B.ON=new A.cb('Terms of Service\n\nLast updated: June 16, 2026\n\nWelcome to Drowzy! These Terms of Service ("Terms") govern your use of the Drowzy mobile application (the "App"), operated by Drowzy ("we," "us," or "our"). By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree, do not use the App.\n\n1. Eligibility\n\nYou must be at least 13 years old to use the App. By using the App, you represent that you meet this age requirement.\n\n2. Description of Service\n\nDrowzy provides real\u2011time drowsiness detection using your device\'s front camera. The App analyzes eye closure patterns and alerts you with sound and vibration when signs of fatigue are detected. The App also stores trip history and provides safety scores. The drowsiness detection is a driver assistance tool only and does not guarantee accident prevention. You remain fully responsible for your driving decisions and safety.\n\n3. Account and Guest Use\n\nYou may use a limited version of the App as a guest (without an account). Creating a free account unlocks cloud backup, cross\u2011device sync, and a 7\u2011day free trial of premium features. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.\n\n4. Free Trial and Subscription\n\n- Free Trial: New users may be offered a 7\u2011day free trial of premium features. The trial begins when you start your first authenticated drive.\n- Subscription: After the trial, you may purchase a monthly or annual auto\u2011renewing subscription to continue unlimited drowsiness detection and premium features.\n- Billing: Payment will be charged to your Apple ID or Google Play account upon confirmation of purchase. Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period.\n- Cancellation: You can manage or cancel your subscription in your device\'s account settings. Cancellation takes effect after the current billing period ends. No refunds are provided for unused portions of the subscription period, except as required by law.\n\n5. Acceptable Use\n\nYou agree not to:\n- Use the App while driving if it causes distraction or violates local traffic laws.\n- Modify, reverse\u2011engineer, or attempt to extract the source code of the App.\n- Use the App for any unlawful purpose or in a way that could harm others.\n\n6. Intellectual Property\n\nThe App and all related content, features, and functionality (including but not limited to the Drowzy name, logo, design, and algorithms) are owned by Drowzy and are protected by copyright, trademark, and other intellectual property laws. You may not copy, distribute, or create derivative works without our prior written consent.\n\n7. Disclaimer of Warranties\n\nThe App is provided "as is" and "as available" without warranties of any kind, either express or implied. We do not guarantee that the App will be error\u2011free, uninterrupted, or that drowsiness detection will be 100% accurate. The App is a driver assistance tool and should not be relied upon as a sole safety measure. Always remain attentive while driving.\n\n8. Limitation of Liability\n\nTo the fullest extent permitted by law, Drowzy shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to personal injury, property damage, or loss of data, arising from your use of the App. Our total liability for any claim shall not exceed the amount you paid us for the 12 months preceding the claim.\n\n9. Termination\n\nWe may suspend or terminate your access to the App at any time, without prior notice, if you violate these Terms. Upon termination, your right to use the App will cease immediately. You may also stop using the App at any time.\n\n10. Governing Law\n\nThese Terms shall be governed by the laws of Nigeria, without regard to conflict of law principles.\n\n11. Changes to Terms\n\nWe reserve the right to modify these Terms at any time. We will notify you of significant changes by posting the new Terms on this page and updating the "Last updated" date. Your continued use of the App after changes constitutes acceptance of the new Terms.\n\n12. Contact\n\nFor questions or concerns about these Terms, contact us at:\nsupport@drowzy.app\n',null,B.w9,null,null)
+B.Jh=new A.oV(B.kt,null,B.ON,null)
 B.OJ=new A.cb('Privacy Policy\n\nLast updated: June 16, 2026\n\nDrowzy ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the Drowzy mobile application (the "App"). Please read this policy carefully. If you do not agree with the terms of this Privacy Policy, please do not use the App.\n\n1. Information We Collect\n\nWe collect minimal information to provide and improve the App\'s functionality:\n\n- Account Information: When you create an account, we collect your email address and an encrypted password. We do not collect your name, phone number, or other personal identifiers unless you voluntarily provide them (e.g., in a feedback form).\n- Trip Data: The App records your driving sessions, including duration, detected drowsiness events, and a calculated safety score. This data is stored locally on your device in guest mode and synced to our secure cloud database when you sign in.\n- Camera Data: The App accesses your device\'s front camera solely for real\u2011time face analysis. No video, images, or facial recognition data are ever stored, transmitted, or shared. All processing happens on\u2011device and is immediately discarded.\n- Usage and Analytics: We use Firebase Analytics to collect anonymous usage statistics (e.g., screen views, feature engagement) to improve the App. This information does not identify you personally.\n- Purchase Information: When you subscribe, the transaction is processed by Apple (App Store) or Google (Play Store). We receive a receipt token to verify your subscription status; we never see your full credit card details.\n\n2. How We Use Your Information\n\nWe use the information we collect to:\n- Provide, maintain, and improve the App\'s drowsiness detection and alert functionality.\n- Sync your trip history across devices when you sign in.\n- Manage your subscription and free trial.\n- Send you essential notifications (e.g., trial expiration reminders, billing issues). You can disable notifications in your device settings.\n- Respond to your feedback and support requests.\n- Analyze aggregated, anonymized data to enhance safety features.\n\n3. Sharing Your Information\n\nWe do not sell, trade, or rent your personal information. We may share data only in the following circumstances:\n- With service providers who help us operate the App (e.g., Supabase for cloud database hosting, Firebase for analytics). These providers are contractually obligated to protect your data.\n- If required by law, to comply with a legal obligation, protect our rights, or investigate fraud.\n\n4. Data Retention and Security\n\n- Account information and trip data are retained as long as your account exists. You may delete your account at any time from the App\'s Profile screen, which will permanently erase your data from our servers.\n- Guest trip data stored locally on your device is deleted when you sign out or uninstall the App.\n- We implement industry\u2011standard security measures (encryption, secure authentication) to protect your information. However, no method of electronic storage is 100% secure.\n\n5. Your Rights\n\nDepending on your location, you may have rights to access, correct, delete, or port your personal data. To exercise these rights, contact us at support@drowzy.app (or use the in\u2011app Feedback option).\n\n6. Children\'s Privacy\n\nThe App is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13.\n\n7. Changes to This Policy\n\nWe may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Last updated" date. Continued use of the App after changes constitutes acceptance.\n\n8. Contact Us\n\nIf you have questions about this Privacy Policy, contact us at:\nsupport@drowzy.app\n',null,B.w9,null,null)
 B.Ji=new A.oV(B.kt,null,B.OJ,null)
 B.Jj=new A.H(1e5,1e5)
@@ -69584,11 +69584,11 @@ B.KR=new A.i(!1,null,null,null,null,null,16,B.N,null,0.15,null,B.p,1.5,B.r,null,
 B.KS=new A.i(!1,null,null,null,null,null,14,B.N,null,0.1,null,B.p,1.43,B.r,null,null,null,null,null,null,null,"englishLike titleSmall 2021",null,null,null,null)
 B.M4=new A.i(!1,null,null,null,null,null,16,B.q,null,0.5,null,B.p,1.5,B.r,null,null,null,null,null,null,null,"englishLike bodyLarge 2021",null,null,null,null)
 B.Ku=new A.i(!1,null,null,null,null,null,14,B.q,null,0.25,null,B.p,1.43,B.r,null,null,null,null,null,null,null,"englishLike bodyMedium 2021",null,null,null,null)
-B.Ma=new A.i(!1,null,null,null,null,null,12,B.q,null,0.4,null,B.p,1.33,B.r,null,null,null,null,null,null,null,"englishLike bodySmall 2021",null,null,null,null)
+B.M9=new A.i(!1,null,null,null,null,null,12,B.q,null,0.4,null,B.p,1.33,B.r,null,null,null,null,null,null,null,"englishLike bodySmall 2021",null,null,null,null)
 B.LR=new A.i(!1,null,null,null,null,null,14,B.N,null,0.1,null,B.p,1.43,B.r,null,null,null,null,null,null,null,"englishLike labelLarge 2021",null,null,null,null)
-B.Me=new A.i(!1,null,null,null,null,null,12,B.N,null,0.5,null,B.p,1.33,B.r,null,null,null,null,null,null,null,"englishLike labelMedium 2021",null,null,null,null)
-B.Mh=new A.i(!1,null,null,null,null,null,11,B.N,null,0.5,null,B.p,1.45,B.r,null,null,null,null,null,null,null,"englishLike labelSmall 2021",null,null,null,null)
-B.Or=new A.cK(B.Nv,B.LF,B.Op,B.N6,B.Nk,B.LE,B.KG,B.KR,B.KS,B.M4,B.Ku,B.Ma,B.LR,B.Me,B.Mh)
+B.Md=new A.i(!1,null,null,null,null,null,12,B.N,null,0.5,null,B.p,1.33,B.r,null,null,null,null,null,null,null,"englishLike labelMedium 2021",null,null,null,null)
+B.Mg=new A.i(!1,null,null,null,null,null,11,B.N,null,0.5,null,B.p,1.45,B.r,null,null,null,null,null,null,null,"englishLike labelSmall 2021",null,null,null,null)
+B.Or=new A.cK(B.Nv,B.LF,B.Op,B.N6,B.Nk,B.LE,B.KG,B.KR,B.KS,B.M4,B.Ku,B.M9,B.LR,B.Md,B.Mg)
 B.e=new A.mC(0)
 B.Kx=new A.i(!0,B.C,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackCupertino displayLarge",null,null,null,null)
 B.Ms=new A.i(!0,B.C,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackCupertino displayMedium",null,null,null,null)
@@ -69599,14 +69599,14 @@ B.F=new A.A(0.8666666666666667,0,0,0,B.f)
 B.Nf=new A.i(!0,B.F,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackCupertino headlineSmall",null,null,null,null)
 B.Ky=new A.i(!0,B.F,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackCupertino titleLarge",null,null,null,null)
 B.NC=new A.i(!0,B.F,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackCupertino titleMedium",null,null,null,null)
-B.Mk=new A.i(!0,B.m,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackCupertino titleSmall",null,null,null,null)
+B.Mj=new A.i(!0,B.m,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackCupertino titleSmall",null,null,null,null)
 B.On=new A.i(!0,B.F,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackCupertino bodyLarge",null,null,null,null)
 B.Ko=new A.i(!0,B.F,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackCupertino bodyMedium",null,null,null,null)
 B.Mq=new A.i(!0,B.C,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackCupertino bodySmall",null,null,null,null)
-B.Mb=new A.i(!0,B.F,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackCupertino labelLarge",null,null,null,null)
+B.Ma=new A.i(!0,B.F,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackCupertino labelLarge",null,null,null,null)
 B.Mm=new A.i(!0,B.m,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackCupertino labelMedium",null,null,null,null)
 B.Kk=new A.i(!0,B.m,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackCupertino labelSmall",null,null,null,null)
-B.Os=new A.cK(B.Kx,B.Ms,B.MQ,B.Ly,B.Kz,B.Nf,B.Ky,B.NC,B.Mk,B.On,B.Ko,B.Mq,B.Mb,B.Mm,B.Kk)
+B.Os=new A.cK(B.Kx,B.Ms,B.MQ,B.Ly,B.Kz,B.Nf,B.Ky,B.NC,B.Mj,B.On,B.Ko,B.Mq,B.Ma,B.Mm,B.Kk)
 B.G=s(["Ubuntu","Adwaita Sans","Cantarell","DejaVu Sans","Liberation Sans","Arial"],t.s)
 B.NI=new A.i(!0,B.C,null,"Roboto",B.G,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackHelsinki displayLarge",null,null,null,null)
 B.MA=new A.i(!0,B.C,null,"Roboto",B.G,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackHelsinki displayMedium",null,null,null,null)
@@ -69656,7 +69656,7 @@ B.NA=new A.i(!1,null,null,null,null,null,15,B.N,null,null,null,B.E,null,null,nul
 B.Nm=new A.i(!1,null,null,null,null,null,12,B.q,null,null,null,B.E,null,null,null,null,null,null,null,null,null,"dense labelMedium 2014",null,null,null,null)
 B.NN=new A.i(!1,null,null,null,null,null,11,B.q,null,null,null,B.E,null,null,null,null,null,null,null,null,null,"dense labelSmall 2014",null,null,null,null)
 B.Ov=new A.cK(B.Oe,B.O9,B.N1,B.L9,B.Nh,B.KA,B.NE,B.MK,B.MF,B.KB,B.MZ,B.LZ,B.NA,B.Nm,B.NN)
-B.Mi=new A.i(!0,B.B,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteRedmond displayLarge",null,null,null,null)
+B.Mh=new A.i(!0,B.B,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteRedmond displayLarge",null,null,null,null)
 B.Kv=new A.i(!0,B.B,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteRedmond displayMedium",null,null,null,null)
 B.NT=new A.i(!0,B.B,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteRedmond displaySmall",null,null,null,null)
 B.KK=new A.i(!0,B.B,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteRedmond headlineLarge",null,null,null,null)
@@ -69671,11 +69671,11 @@ B.MW=new A.i(!0,B.B,null,"Segoe UI",null,null,null,null,null,null,null,null,null
 B.KL=new A.i(!0,B.i,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteRedmond labelLarge",null,null,null,null)
 B.LL=new A.i(!0,B.i,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteRedmond labelMedium",null,null,null,null)
 B.Kh=new A.i(!0,B.i,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteRedmond labelSmall",null,null,null,null)
-B.Ow=new A.cK(B.Mi,B.Kv,B.NT,B.KK,B.Nb,B.Mv,B.NQ,B.L8,B.L_,B.O7,B.Nq,B.MW,B.KL,B.LL,B.Kh)
+B.Ow=new A.cK(B.Mh,B.Kv,B.NT,B.KK,B.Nb,B.Mv,B.NQ,B.L8,B.L_,B.O7,B.Nq,B.MW,B.KL,B.LL,B.Kh)
 B.LW=new A.i(!1,null,null,null,null,null,112,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"tall displayLarge 2014",null,null,null,null)
 B.NB=new A.i(!1,null,null,null,null,null,56,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"tall displayMedium 2014",null,null,null,null)
-B.Md=new A.i(!1,null,null,null,null,null,45,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"tall displaySmall 2014",null,null,null,null)
-B.Mc=new A.i(!1,null,null,null,null,null,40,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"tall headlineLarge 2014",null,null,null,null)
+B.Mc=new A.i(!1,null,null,null,null,null,45,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"tall displaySmall 2014",null,null,null,null)
+B.Mb=new A.i(!1,null,null,null,null,null,40,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"tall headlineLarge 2014",null,null,null,null)
 B.Np=new A.i(!1,null,null,null,null,null,34,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"tall headlineMedium 2014",null,null,null,null)
 B.MP=new A.i(!1,null,null,null,null,null,24,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"tall headlineSmall 2014",null,null,null,null)
 B.LT=new A.i(!1,null,null,null,null,null,21,B.ax,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"tall titleLarge 2014",null,null,null,null)
@@ -69683,11 +69683,11 @@ B.KD=new A.i(!1,null,null,null,null,null,17,B.q,null,null,null,B.p,null,null,nul
 B.NK=new A.i(!1,null,null,null,null,null,15,B.N,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"tall titleSmall 2014",null,null,null,null)
 B.KN=new A.i(!1,null,null,null,null,null,15,B.ax,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"tall bodyLarge 2014",null,null,null,null)
 B.LI=new A.i(!1,null,null,null,null,null,15,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"tall bodyMedium 2014",null,null,null,null)
-B.Mj=new A.i(!1,null,null,null,null,null,13,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"tall bodySmall 2014",null,null,null,null)
+B.Mi=new A.i(!1,null,null,null,null,null,13,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"tall bodySmall 2014",null,null,null,null)
 B.L0=new A.i(!1,null,null,null,null,null,15,B.ax,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"tall labelLarge 2014",null,null,null,null)
 B.Lp=new A.i(!1,null,null,null,null,null,12,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"tall labelMedium 2014",null,null,null,null)
 B.NR=new A.i(!1,null,null,null,null,null,11,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"tall labelSmall 2014",null,null,null,null)
-B.Ox=new A.cK(B.LW,B.NB,B.Md,B.Mc,B.Np,B.MP,B.LT,B.KD,B.NK,B.KN,B.LI,B.Mj,B.L0,B.Lp,B.NR)
+B.Ox=new A.cK(B.LW,B.NB,B.Mc,B.Mb,B.Np,B.MP,B.LT,B.KD,B.NK,B.KN,B.LI,B.Mi,B.L0,B.Lp,B.NR)
 B.Ln=new A.i(!0,B.B,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteMountainView displayLarge",null,null,null,null)
 B.Lv=new A.i(!0,B.B,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteMountainView displayMedium",null,null,null,null)
 B.KZ=new A.i(!0,B.B,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteMountainView displaySmall",null,null,null,null)
@@ -69731,11 +69731,11 @@ B.Nn=new A.i(!0,B.i,null,"CupertinoSystemText",null,null,null,null,null,null,nul
 B.MO=new A.i(!0,B.i,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteCupertino titleSmall",null,null,null,null)
 B.NY=new A.i(!0,B.i,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteCupertino bodyLarge",null,null,null,null)
 B.LC=new A.i(!0,B.i,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteCupertino bodyMedium",null,null,null,null)
-B.Mf=new A.i(!0,B.B,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteCupertino bodySmall",null,null,null,null)
+B.Me=new A.i(!0,B.B,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteCupertino bodySmall",null,null,null,null)
 B.LQ=new A.i(!0,B.i,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteCupertino labelLarge",null,null,null,null)
 B.Kt=new A.i(!0,B.i,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteCupertino labelMedium",null,null,null,null)
 B.Ks=new A.i(!0,B.i,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteCupertino labelSmall",null,null,null,null)
-B.OA=new A.cK(B.Ok,B.NS,B.N5,B.LV,B.Nt,B.LM,B.MR,B.Nn,B.MO,B.NY,B.LC,B.Mf,B.LQ,B.Kt,B.Ks)
+B.OA=new A.cK(B.Ok,B.NS,B.N5,B.LV,B.Nt,B.LM,B.MR,B.Nn,B.MO,B.NY,B.LC,B.Me,B.LQ,B.Kt,B.Ks)
 B.Oq=new A.i(!1,null,null,null,null,null,57,B.q,null,-0.25,null,B.p,1.12,B.r,null,null,null,null,null,null,null,"tall displayLarge 2021",null,null,null,null)
 B.Ls=new A.i(!1,null,null,null,null,null,45,B.q,null,0,null,B.p,1.16,B.r,null,null,null,null,null,null,null,"tall displayMedium 2021",null,null,null,null)
 B.LS=new A.i(!1,null,null,null,null,null,36,B.q,null,0,null,B.p,1.22,B.r,null,null,null,null,null,null,null,"tall displaySmall 2021",null,null,null,null)
@@ -69743,7 +69743,7 @@ B.Lb=new A.i(!1,null,null,null,null,null,32,B.q,null,0,null,B.p,1.25,B.r,null,nu
 B.Lz=new A.i(!1,null,null,null,null,null,28,B.q,null,0,null,B.p,1.29,B.r,null,null,null,null,null,null,null,"tall headlineMedium 2021",null,null,null,null)
 B.KX=new A.i(!1,null,null,null,null,null,24,B.q,null,0,null,B.p,1.33,B.r,null,null,null,null,null,null,null,"tall headlineSmall 2021",null,null,null,null)
 B.Mw=new A.i(!1,null,null,null,null,null,22,B.q,null,0,null,B.p,1.27,B.r,null,null,null,null,null,null,null,"tall titleLarge 2021",null,null,null,null)
-B.M7=new A.i(!1,null,null,null,null,null,16,B.N,null,0.15,null,B.p,1.5,B.r,null,null,null,null,null,null,null,"tall titleMedium 2021",null,null,null,null)
+B.M6=new A.i(!1,null,null,null,null,null,16,B.N,null,0.15,null,B.p,1.5,B.r,null,null,null,null,null,null,null,"tall titleMedium 2021",null,null,null,null)
 B.Oa=new A.i(!1,null,null,null,null,null,14,B.N,null,0.1,null,B.p,1.43,B.r,null,null,null,null,null,null,null,"tall titleSmall 2021",null,null,null,null)
 B.NG=new A.i(!1,null,null,null,null,null,16,B.q,null,0.5,null,B.p,1.5,B.r,null,null,null,null,null,null,null,"tall bodyLarge 2021",null,null,null,null)
 B.NV=new A.i(!1,null,null,null,null,null,14,B.q,null,0.25,null,B.p,1.43,B.r,null,null,null,null,null,null,null,"tall bodyMedium 2021",null,null,null,null)
@@ -69751,11 +69751,11 @@ B.O2=new A.i(!1,null,null,null,null,null,12,B.q,null,0.4,null,B.p,1.33,B.r,null,
 B.ND=new A.i(!1,null,null,null,null,null,14,B.N,null,0.1,null,B.p,1.43,B.r,null,null,null,null,null,null,null,"tall labelLarge 2021",null,null,null,null)
 B.Of=new A.i(!1,null,null,null,null,null,12,B.N,null,0.5,null,B.p,1.33,B.r,null,null,null,null,null,null,null,"tall labelMedium 2021",null,null,null,null)
 B.Nc=new A.i(!1,null,null,null,null,null,11,B.N,null,0.5,null,B.p,1.45,B.r,null,null,null,null,null,null,null,"tall labelSmall 2021",null,null,null,null)
-B.OB=new A.cK(B.Oq,B.Ls,B.LS,B.Lb,B.Lz,B.KX,B.Mw,B.M7,B.Oa,B.NG,B.NV,B.O2,B.ND,B.Of,B.Nc)
+B.OB=new A.cK(B.Oq,B.Ls,B.LS,B.Lb,B.Lz,B.KX,B.Mw,B.M6,B.Oa,B.NG,B.NV,B.O2,B.ND,B.Of,B.Nc)
 B.O1=new A.i(!1,null,null,null,null,null,112,B.hQ,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"englishLike displayLarge 2014",null,null,null,null)
 B.ML=new A.i(!1,null,null,null,null,null,56,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"englishLike displayMedium 2014",null,null,null,null)
 B.NF=new A.i(!1,null,null,null,null,null,45,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"englishLike displaySmall 2014",null,null,null,null)
-B.M8=new A.i(!1,null,null,null,null,null,40,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"englishLike headlineLarge 2014",null,null,null,null)
+B.M7=new A.i(!1,null,null,null,null,null,40,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"englishLike headlineLarge 2014",null,null,null,null)
 B.N3=new A.i(!1,null,null,null,null,null,34,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"englishLike headlineMedium 2014",null,null,null,null)
 B.KP=new A.i(!1,null,null,null,null,null,24,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"englishLike headlineSmall 2014",null,null,null,null)
 B.Mn=new A.i(!1,null,null,null,null,null,20,B.N,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"englishLike titleLarge 2014",null,null,null,null)
@@ -69767,7 +69767,7 @@ B.Kn=new A.i(!1,null,null,null,null,null,12,B.q,null,null,null,B.p,null,null,nul
 B.O0=new A.i(!1,null,null,null,null,null,14,B.N,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"englishLike labelLarge 2014",null,null,null,null)
 B.La=new A.i(!1,null,null,null,null,null,12,B.q,null,null,null,B.p,null,null,null,null,null,null,null,null,null,"englishLike labelMedium 2014",null,null,null,null)
 B.MC=new A.i(!1,null,null,null,null,null,10,B.q,null,1.5,null,B.p,null,null,null,null,null,null,null,null,null,"englishLike labelSmall 2014",null,null,null,null)
-B.OC=new A.cK(B.O1,B.ML,B.NF,B.M8,B.N3,B.KP,B.Mn,B.LB,B.KI,B.Lf,B.NP,B.Kn,B.O0,B.La,B.MC)
+B.OC=new A.cK(B.O1,B.ML,B.NF,B.M7,B.N3,B.KP,B.Mn,B.LB,B.KI,B.Lf,B.NP,B.Kn,B.O0,B.La,B.MC)
 B.L4=new A.i(!0,B.C,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedmond displayLarge",null,null,null,null)
 B.M_=new A.i(!0,B.C,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedmond displayMedium",null,null,null,null)
 B.Oh=new A.i(!0,B.C,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedmond displaySmall",null,null,null,null)
@@ -69788,7 +69788,7 @@ B.L2=new A.i(!0,B.B,null,"Roboto",B.G,null,null,null,null,null,null,null,null,nu
 B.Nl=new A.i(!0,B.B,null,"Roboto",B.G,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteHelsinki displayMedium",null,null,null,null)
 B.LJ=new A.i(!0,B.B,null,"Roboto",B.G,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteHelsinki displaySmall",null,null,null,null)
 B.O8=new A.i(!0,B.B,null,"Roboto",B.G,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteHelsinki headlineLarge",null,null,null,null)
-B.M9=new A.i(!0,B.B,null,"Roboto",B.G,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteHelsinki headlineMedium",null,null,null,null)
+B.M8=new A.i(!0,B.B,null,"Roboto",B.G,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteHelsinki headlineMedium",null,null,null,null)
 B.KJ=new A.i(!0,B.i,null,"Roboto",B.G,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteHelsinki headlineSmall",null,null,null,null)
 B.Kl=new A.i(!0,B.i,null,"Roboto",B.G,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteHelsinki titleLarge",null,null,null,null)
 B.NU=new A.i(!0,B.i,null,"Roboto",B.G,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteHelsinki titleMedium",null,null,null,null)
@@ -69799,7 +69799,7 @@ B.Og=new A.i(!0,B.B,null,"Roboto",B.G,null,null,null,null,null,null,null,null,nu
 B.MG=new A.i(!0,B.i,null,"Roboto",B.G,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteHelsinki labelLarge",null,null,null,null)
 B.NO=new A.i(!0,B.i,null,"Roboto",B.G,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteHelsinki labelMedium",null,null,null,null)
 B.KQ=new A.i(!0,B.i,null,"Roboto",B.G,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteHelsinki labelSmall",null,null,null,null)
-B.OE=new A.cK(B.L2,B.Nl,B.LJ,B.O8,B.M9,B.KJ,B.Kl,B.NU,B.Lx,B.O4,B.MI,B.Og,B.MG,B.NO,B.KQ)
+B.OE=new A.cK(B.L2,B.Nl,B.LJ,B.O8,B.M8,B.KJ,B.Kl,B.NU,B.Lx,B.O4,B.MI,B.Og,B.MG,B.NO,B.KQ)
 B.Ne=new A.i(!0,B.C,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackMountainView displayLarge",null,null,null,null)
 B.Kq=new A.i(!0,B.C,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackMountainView displayMedium",null,null,null,null)
 B.ME=new A.i(!0,B.C,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackMountainView displaySmall",null,null,null,null)
@@ -69837,16 +69837,16 @@ B.LO=new A.i(!0,B.b8,null,null,null,null,16,null,null,null,null,null,1.5,null,nu
 B.OI=new A.cb("Your account is now active.\nYou can return to the app and sign in.",null,B.LO,B.aR,null)
 B.MY=new A.i(!0,B.i,null,null,null,null,26,B.ax,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.OK=new A.cb("Email Confirmed!",null,B.MY,null,null)
-B.M6=new A.i(!0,B.i,null,null,null,null,19,B.ce,null,-0.3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.OL=new A.cb("Drowzy",null,B.M6,null,null)
 B.j0=new A.i(!0,B.b8,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.OM=new A.cb("Contact",null,B.j0,null,null)
+B.OL=new A.cb("Contact",null,B.j0,null,null)
 B.LN=new A.i(!0,B.b8,null,null,null,null,16,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.ON=new A.cb("Free forever \xb7 Upgrade for unlimited drives and cloud backup.",null,B.LN,B.aR,null)
+B.OM=new A.cb("Free forever \xb7 Upgrade for unlimited drives and cloud backup.",null,B.LN,B.aR,null)
 B.O_=new A.i(!0,B.k,null,null,null,null,12,B.d3,null,0.3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.OS=new A.cb("Free to get started",null,B.O_,null,null)
+B.OR=new A.cb("Free to get started",null,B.O_,null,null)
 B.wc=new A.i(!0,B.i,null,null,null,null,40,B.ax,null,-0.8,null,null,1.18,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.OU=new A.cb("Up and running\nin 30 seconds.",null,B.wc,B.aR,null)
+B.OT=new A.cb("Up and running\nin 30 seconds.",null,B.wc,B.aR,null)
+B.Mk=new A.i(!0,B.i,null,null,null,null,22,B.ce,null,-0.3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.OV=new A.cb("Drowzy",null,B.Mk,null,null)
 B.OW=new A.cb("Terms of Service",null,null,null,null)
 B.OX=new A.cb("Terms",null,B.j0,null,null)
 B.OY=new A.cb("Privacy",null,B.j0,null,null)
@@ -70231,7 +70231,7 @@ r($,"aul","alX",()=>A.atP())
 r($,"aAH","aml",()=>A.cp().gKY()+"roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2")
 r($,"aA5","alV",()=>A.atC(A.zy(A.zy(A.j9(),"window"),"FinalizationRegistry"),A.fy(new A.a9E())))
 r($,"aBk","amK",()=>new A.Xp())
-s($,"aAc","alZ",()=>A.apX(B.CW))
+s($,"aAc","alZ",()=>A.apX(B.CV))
 s($,"aAb","aaV",()=>A.Uv(A.any($.alZ())))
 s($,"axt","c0",()=>{var q,p=A.v(A.v(A.j9(),"window"),"screen")
 p=p==null?null:A.v(p,"width")
